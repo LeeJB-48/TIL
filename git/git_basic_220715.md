@@ -59,11 +59,11 @@
 - **git commit** ⇒ staged된 파일들을 repo로 커밋시키는 것!
 - **git status** ⇒ git으로 관리되고 있는 파일들의 상태를 알 수 있다.
 - **git diff ⇒** 차이를 구분할 수 있다
-    - ex) git diff <commit_id>..<commit_id
+    - ex) git diff <commit_id> <commit_id>
 - **git remote ⇒** add origin [remote_repo]
     - 여기서 origin이란 remote_repo의 별명 인것이다! (즉 local기준으로 remote_repo를 가르킬 때 지칭하는 말 이다)
 - **git push ⇒** [repo_name] [repo에서의 branch name]
     - ex) git push origin master (origin은 local 기준으로 remote_repo의 이름 , main은 지금 현재 repo에서의 branch 이름
-- **git pull**  ⇒
+- **git pull**  ⇒ 원격 저장소의 정보를 가져오면서 자동으로 local 브랜치에 merge까지 해주는 명령어! 
 - **git clone ⇒** github에 올라와있는 repo를 local로 다운받는? 것
     - clone을 받으면 git push만 해도 된다 (자동으로 local하고 remote와 연결)
